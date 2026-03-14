@@ -69,8 +69,7 @@ function EntryCard({
         borderColor: expanded ? 'var(--border-2)' : 'var(--border)',
         animationDelay: `${index * 0.04}s`,
       }}
-      className={`card fade-up-delay-${Math.min(index + 1, 4)}`}
-      onClick={onToggle}
+       onClick={onToggle}
     >
       {/* Row 1: Date + severity badge */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
